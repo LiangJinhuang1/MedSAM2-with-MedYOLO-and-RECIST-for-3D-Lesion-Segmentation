@@ -29,25 +29,15 @@ pip install -r MedYOLO/requirements.txt
 
 ### 3. Download Checkpoints
 
-The project requires two sets of checkpoints: one for MedSAM2 and one for MedYOLO.
-
-**MedSAM2 Checkpoint:**
-
-Run the provided script to download the main MedSAM2 checkpoint. This will place the `checkpoint.pt` file in the `FLARE_results/checkpoints/` directory.
+The project requires two sets of checkpoints: one for MedSAM2 and one for MedYOLO. Run the provided script to download both checkpoints.
 
 ```bash
 sh download.sh
 ```
 
-**MedYOLO Checkpoint:**
-
-The checkpoint for the MedYOLO model is already included in this repository at:
-
-```
-MedYOLO/runs/train/exp3/weights/last.pt
-```
-
-No download is necessary for the MedYOLO checkpoint.
+This script will download:
+- `checkpoint.pt` to `FLARE_results/checkpoints/`
+- `last.pt` to `MedYOLO/runs/train/exp3/weights/`
 
 ## Usage
 
