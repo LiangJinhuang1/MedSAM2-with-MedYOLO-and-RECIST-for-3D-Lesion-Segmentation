@@ -1,0 +1,30 @@
+lr0: 0.0032
+lrf: 0.12
+momentum: 0.843
+weight_decay: 0.00036
+warmup_epochs: 2.0
+warmup_momentum: 0.5
+warmup_bias_lr: 0.05
+box: 0.0296
+cls: 0.243
+cls_pw: 0.631
+obj: 0.301
+obj_pw: 0.911
+iou_t: 0.2
+anchor_t: 2.91
+fl_gamma: 0.0
+max_zoom: 1.5
+min_zoom: 0.7
+prob_zoom: 0.5
+prob_cutout: 0.5
+cutout_params:
+- - 0.5
+  - 1
+- - 0.25
+  - 2
+- - 0.125
+  - 4
+- - 0.0625
+  - 8
+- - 0.03125
+  - 16
