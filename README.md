@@ -23,7 +23,7 @@ source venv/bin/activate
 Install the required Python packages for the main MedSAM2 project and the MedYOLO submodule.
 
 ```bash
-pip install -r requirements.txt # Or install from pyproject.toml if available
+pip install -r requirements.txt
 pip install -r MedYOLO/requirements.txt
 ```
 
