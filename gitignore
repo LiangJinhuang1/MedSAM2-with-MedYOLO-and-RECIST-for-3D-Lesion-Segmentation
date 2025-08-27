@@ -11,3 +11,9 @@ _C.*
 outputs/*
 checkpoints/*.pt
 *.pt
+
+# Ignore FLARE checkpoint
+FLARE_results/checkpoints/checkpoint.pt
+
+# Ignore MedYOLO checkpoint
+MedYOLO/runs/train/exp3/weights/last.pt
